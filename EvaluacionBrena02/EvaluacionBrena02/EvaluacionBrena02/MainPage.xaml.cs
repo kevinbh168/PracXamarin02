@@ -16,6 +16,11 @@ namespace EvaluacionBrena02
         public MainPage()
         {
             InitializeComponent();
+            Item0.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new StackLayout());
+
+            };
             Item1.Clicked += async (sender, e) =>
             {
                await Navigation.PushAsync(new Grid());
@@ -36,13 +41,13 @@ namespace EvaluacionBrena02
 
             Item4.Clicked += async (sender, e) =>
             {
-                //await Navigation.PushAsync(new ButtonDemo());
+                await Navigation.PushAsync(new Formulario());
 
             };
 
             Item5.Clicked += async (sender, e) =>
             {
-               // await Navigation.PushAsync(new ButtonDemo());
+               await Navigation.PushAsync(new DatePicker());
 
             };
 

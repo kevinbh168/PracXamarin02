@@ -8,11 +8,12 @@
 
     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
         <StackLayout>
+            <Button x:Name="Item0" Text="STACK LAYOUT"/>
             <Button x:Name="Item1" Text="GRID"/>
             <Button x:Name="Item2" Text="HIERCHINAL NAVIGATION"/>
             <Button x:Name="Item3" Text="TABBED"/>
             <Button x:Name="Item4" Text="FORMULARIO"/>
-            <Button x:Name="Item5" Text="EditorDemo"/>
+            <Button x:Name="Item5" Text="DATE PICKER"/>
         </StackLayout>
     </StackLayout>
 
