@@ -18,19 +18,19 @@ namespace EvaluacionBrena02
             InitializeComponent();
             Item1.Clicked += async (sender, e) =>
             {
-              //  await Navigation.PushAsync(new ButtonDemo());
+               await Navigation.PushAsync(new Grid());
 
             };
 
             Item2.Clicked += async (sender, e) =>
             {
-                //await Navigation.PushAsync(new ButtonDemo());
+                await Navigation.PushAsync(new Navigation());
 
             };
 
             Item3.Clicked += async (sender, e) =>
             {
-               // await Navigation.PushAsync(new ButtonDemo());
+                await Navigation.PushAsync(new TabbedEje());
 
             };
 
